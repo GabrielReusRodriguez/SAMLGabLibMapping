@@ -1,0 +1,4 @@
+*.p12
+*.class
+*.pkcs12
+bin/*

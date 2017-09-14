@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<n0:MT_INT012_TrametreDemanda_REQ
+	xmlns:n0="http://les_catsalut.csi" xmlns:prx="urn:sap.com:proxy:CSD:/1SAI/TAS595C462332CB76DB8C39:740">
+	<TiquetSAML>
+		<saml2:Assertion xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"
+			ID="_2d26440b9546c50fa4d15549592851e3" IssueInstant="2017-09-14T20:39:15.360Z"
+			Version="2.0">
+			<saml2:Issuer>HCC -</saml2:Issuer>
+			<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:SignedInfo>
+					<ds:CanonicalizationMethod
+						Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+					<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+					<ds:Reference URI="#_2d26440b9546c50fa4d15549592851e3">
+						<ds:Transforms>
+							<ds:Transform
+								Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+							<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+						</ds:Transforms>
+						<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+						<ds:DigestValue>mn4jvFrM1cnia23lTtEfIhsJPv4=</ds:DigestValue>
+					</ds:Reference>
+				</ds:SignedInfo>
+				<ds:SignatureValue>sTh7QiwyCojPekGH6NvFzqFfyTxHOPnMVgjFuqZUd8YPfPihKqUDq1BF/v7sqfYf0mF5w3bcuXj0RRGmdq86eGBi9Jbi6DY4WTdSHYqYXyja8x2L1Deop+0FGNzdX5n8YFd/3aMa5v72HAdzf7xVhEdosBBMESl7Es71Jjnk/rE6M+vueVlLA6m8uyQyoOQzqpiF1Qa3wz7Rw6Fqm3SJF0TFQNOZbVpB4pjEq+wyyMgNrgPStcKsitybv+cjpu6ke8Msn62o/+yHJ/6bhlxi0vR5sSlkTrVGF8b7U26iFsfDSs+7VsLmD2vDZO0MNIn8uwKZh9+j8gGsM8LxPY7nGA==
+				</ds:SignatureValue>
+				<ds:KeyInfo>
+					<ds:X509Data>
+						<ds:X509Certificate>MIIG+jCCBeKgAwIBAgIQRFDZF4gLLb9UiURyQcWY9zANBgkqhkiG9w0BAQUFADCCATExCzAJBgNV
+							BAYTAkVTMTswOQYDVQQKEzJBZ2VuY2lhIENhdGFsYW5hIGRlIENlcnRpZmljYWNpbyAoTklGIFEt
+							MDgwMTE3Ni1JKTE0MDIGA1UEBxMrUGFzc2F0Z2UgZGUgbGEgQ29uY2VwY2lvIDExIDA4MDA4IEJh
+							cmNlbG9uYTEuMCwGA1UECxMlU2VydmVpcyBQdWJsaWNzIGRlIENlcnRpZmljYWNpbyBFQ1YtMjE3
+							MDUGA1UECxMuVmVnZXUgaHR0cHM6Ly93d3cuY2F0Y2VydC5uZXQvdmVyQ0lDLTIgICAoYykwMzE0
+							MDIGA1UECxMrU2VjcmV0YXJpYSBkJ0FkbWluaXN0cmFjaW8gaSBGdW5jaW8gUHVibGljYTEQMA4G
+							A1UEAxMHRUMtU0FGUDAeFw0xNDEyMTEwNzE0NTBaFw0xODEyMTEwNzE0NTBaMIGnMQswCQYDVQQG
+							EwJFUzEjMCEGA1UEChMaQ29uc29yY2kgU2FuaXRhcmkgSW50ZWdyYWwxLjAsBgNVBAsUJVNlcnZl
+							aXMgUPpibGljcyBkZSBDZXJ0aWZpY2FjafMgQ0RBLTExNTAzBgNVBAsTLFZlZ2V1IGh0dHBzOi8v
+							d3d3LmNhdGNlcnQuY2F0L3ZlckNEQS0xIChjKTAzMQwwCgYDVQQDEwNTQVAwggEiMA0GCSqGSIb3
+							DQEBAQUAA4IBDwAwggEKAoIBAQC4qpmhyYFO3/WNRb2JBfLf76EnBM9M0/7ycfb28Nc9bGR4+/h9
+							P1Dbymzl4gYdXvbL5wVDVdsbNdSS9jUF6OdQhQ6v3YDS/OPqJZSKdEVKCuoPZT9mmlVoDbNe+zCQ
+							svq3Rh7HLwXs4KTXjKg5Y3qQqTv1f4gd3KLau8eSWURQseQIBTMEODq2r1ONUJOIFyC7K/is49nG
+							F458yIB7fnlz//JJmL2SRQlc/OCWbtTmUS2H4qAskgKQV/aUkygvfqBO6DKpmXuwPMV9q9j0NOAd
+							TpSFgdmkUJvCnq6EuxXln5i2XR98RMJBrx5Yv8ysq1yTvE4PD1ydZg9vawXUBkK3AgMBAAGjggKT
+							MIICjzAeBgNVHRIEFzAVgRNlY19zYWZwQGNhdGNlcnQubmV0MEQGA1UdEQQ9MDuBIWxsdWlzLnRl
+							aXhlbGxAc2FuaXRhdGludGVncmFsLm9yZ6QWMBQxEjAQBgNVBAUTCVE1ODU2MjU0RzAOBgNVHQ8B
+							Af8EBAMCBLAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMBEGCWCGSAGG+EIBAQQEAwIF
+							oDAdBgNVHQ4EFgQUQNml24+PfmI46NWo8ssagsSPdnMwHwYDVR0jBBgwFoAUBbftTxZS3frmksCi
+							cnlWYFTCJBMwgcwGA1UdIASBxDCBwTCBvgYLKwYBBAH1eAEDAVswga4wLAYIKwYBBQUHAgEWIGh0
+							dHBzOi8vd3d3LmNhdGNlcnQuY2F0L3ZlckNEQS0xMH4GCCsGAQUFBwICMHIacEFxdWVzdCDpcyB1
+							biBjZXJ0aWZpY2F0IGRlIGRpc3Bvc2l0aXUgZCdhcGxpY2FjafMgYXNzZWd1cmFkYSBkZSBjbGFz
+							c2UgMS4gVmVnZXUgaHR0cHM6Ly93d3cuY2F0Y2VydC5jYXQvdmVyQ0RBLTEwcAYIKwYBBQUHAQEE
+							ZDBiMCMGCCsGAQUFBzABhhdodHRwOi8vb2NzcC5jYXRjZXJ0LmNhdDA7BggrBgEFBQcwAoYvaHR0
+							cDovL3d3dy5jYXRjZXJ0LmNhdC9kZXNjYXJyZWdhL3NhZnNfY3Nycy5jcnQwZAYDVR0fBF0wWzBZ
+							oFegVYYoaHR0cDovL2Vwc2NkLmNhdGNlcnQubmV0L2NybC9lYy1zYWZwLmNybIYpaHR0cDovL2Vw
+							c2NkMi5jYXRjZXJ0Lm5ldC9jcmwvZWMtc2FmcC5jcmwwDQYJKoZIhvcNAQEFBQADggEBAGYVATvq
+							+x14uZEJfFT9fmOwTbVBSa4tPjvgWl3d2dVwzVDjOxhiBlEz1n/MLieo2UnLKQ9uA+in9KCaCadl
+							yjnbMjSGl6FfWRiWBP07BXhKrgi5WFKpNJW3pilwrl0sC/LpMHpL3cEQ1qg8HeKeXOh18cFOkE2w
+							nMQeNSqEPQtYHwG9zk/YZYYlFUG5yeFB74YjU0JRHr4Sixn0CK1XvLx47sKaiodOK0rvfQtdjWxA
+							kN0FFr/X84dIvmyLgGORYqKwjt4HoHbaI9YwcHhjNZACHQzDpHYCNTlZXvR9565XfGAswUpLQmn8
+							Fnur+Snf2KTlWFD6ZLiGl3bkLrNwp98=
+						</ds:X509Certificate>
+					</ds:X509Data>
+				</ds:KeyInfo>
+			</ds:Signature>
+			<saml2:Subject>
+				<saml2:NameID
+					Format="urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName">CN=EC-SAFP, OU=Secretaria d'Administracio i Funcio Publica,
+					OU="Vegeu https://www.catcert.net/verCIC-2 (c)03", OU=Serveis
+					Publics de Certificacio ECV-2, L=Passatge de la Concepcio 11 08008
+					Barcelona, O=Agencia Catalana de Certificacio (NIF Q-0801176-I),
+					C=ES</saml2:NameID>
+			</saml2:Subject>
+			<saml2:Conditions NotBefore="2017-09-14T20:39:15.383Z"
+				NotOnOrAfter="2017-09-14T20:44:55.383Z" />
+		</saml2:Assertion>
+	</TiquetSAML>
+	<demanda>
+		<codi_usuari>EP0126WS</codi_usuari>
+		<registres>
+			<registre>
+				<tipus_moviment>B</tipus_moviment>
+				<tipus_llista>01</tipus_llista>
+				<identificador_registre_unitat_proveidora>0012560321
+				</identificador_registre_unitat_proveidora>
+				<codi_unitat_proveidora>05994</codi_unitat_proveidora>
+				<data_realitzacio>2013-05-27</data_realitzacio>
+				<motiu_baixa>01</motiu_baixa>
+				<codi_procediment_cim_intervencio>6373
+				</codi_procediment_cim_intervencio>
+				<codi_agrupador_realitzacio>07</codi_agrupador_realitzacio>
+				<codi_usuari_up_sistema_origen>PSANCHEZG
+				</codi_usuari_up_sistema_origen>
+				<data_moviment_up_sistema_origen>2013-07-18T00:00:00.000
+				</data_moviment_up_sistema_origen>
+			</registre>
+		</registres>
+	</demanda>
+</n0:MT_INT012_TrametreDemanda_REQ>

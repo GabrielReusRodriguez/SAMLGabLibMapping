@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<n0:MT_INT012_TrametreDemanda_REQ
+	xmlns:n0="http://les_catsalut.csi" xmlns:prx="urn:sap.com:proxy:CSD:/1SAI/TAS595C462332CB76DB8C39:740">
+	<TiquetSAML>
+		<DadesSAML>
+			<Usuari_Responsable_codi>EP0126WS</Usuari_Responsable_codi>
+			<organitzacio>0126</organitzacio>
+			<unitat_organitzativa>05994</unitat_organitzativa>
+			<data_comunicacio>20170907</data_comunicacio>
+		</DadesSAML>
+	</TiquetSAML>
+	<demanda>
+		<codi_usuari>EP0126WS</codi_usuari>
+		<registres>
+			<registre>
+				<tipus_moviment>B</tipus_moviment>
+				<tipus_llista>01</tipus_llista>
+				<identificador_registre_unitat_proveidora>0012560321
+				</identificador_registre_unitat_proveidora>
+				<codi_unitat_proveidora>05994</codi_unitat_proveidora>
+				<data_realitzacio>2013-05-27</data_realitzacio>
+				<motiu_baixa>01</motiu_baixa>
+				<codi_procediment_cim_intervencio>6373
+				</codi_procediment_cim_intervencio>
+				<codi_agrupador_realitzacio>07</codi_agrupador_realitzacio>
+				<codi_usuari_up_sistema_origen>PSANCHEZG
+				</codi_usuari_up_sistema_origen>
+				<data_moviment_up_sistema_origen>2013-07-18T00:00:00.000
+				</data_moviment_up_sistema_origen>
+			</registre>
+		</registres>
+	</demanda>
+</n0:MT_INT012_TrametreDemanda_REQ>
